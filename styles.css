@@ -48,18 +48,86 @@ nav ul li a {
 
 .hero h2 {
     font-size: 2rem;
+
 }
 
-#search-form {
+.search-form {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-#search-form input,
-#search-form button {
+input,
+button {
     padding: 10px;
     margin: 5px;
     border: none;
     border-radius: 10px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+.destinos,
+.hoteis,
+.passagens,
+.contato {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.destino-grid,
+.hotel-grid,
+.passagem-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destino-item,
+.hotel-item,
+.passagem-item {
+    background-color: rgba(56, 63, 204, 0.166);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(229, 12, 12, 0.1);
+
+}
+
+.destino-item img,
+.hotel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
 }
